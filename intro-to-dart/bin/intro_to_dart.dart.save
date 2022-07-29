@@ -1,0 +1,30 @@
+import 'package:intro_to_dart/intro_to_dart.dart' as intro_to_dart;
+
+
+void main(List<String> arg) {
+
+
+   final String name = "Jazli";
+   const int age = 23;
+
+
+helloTo(name:name, family:"Jazli", age:age);
+
+if (age  2 == 0){
+print("Even");
+}else {
+print("Odd");
+}
+}
+
+helloToOptional([String name="Jazli", String family="Jazli", int age=23]){
+
+print('My name is $name and my age is $age');
+
+}
+
+helloTo({String name="Jazli", String family="Jazli", int age=23}){
+
+print('My name is $name and my age is $age');
+
+}
